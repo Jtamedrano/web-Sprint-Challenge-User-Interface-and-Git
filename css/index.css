@@ -66,11 +66,43 @@ p {
     line-height: 1.4;
 }
 
+/* Container */
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+/* Header */
+header {
+    margin: 2% auto;
+} 
+
+.header-nav {
+    margin: 2% auto 5%;
+}
+
+header .header-nav {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+/* nav Items */
+.header-nav ul {
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-nav ul a {
+    color: inherit;
+    margin: none;
+    padding: none;
+    text-decoration: none;
+}
+
+
+/* Top Content - Home */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,15 +111,63 @@ p {
     border-bottom: 1px dashed black;
 }
 
+/* Top Content - About */
+.top-content-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 2% 2%;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
+/* Middle Content - Home */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+/* Middle Content - Home Boxes */
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetblue;
+}
+
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
 }
 
 .middle-content h2 {
@@ -112,6 +192,36 @@ p {
     justify-content: center;
 }
 
+/* Middle Content - About */
+
+.middle-content-about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content-about .text-container {
+    flex-basis: 40%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-about .text-container h2 {
+    margin-top: 3%;
+}
+
+.middle-content-about .text-container a {
+    display: inline-block;
+    margin: 5% 0;
+    padding: 2% 6%;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Bottom Conent - Home */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +235,15 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Bottom Conent - About */
+
+.bottow-content-about {
+    margin-bottom: 20px;
+    padding: 3%;
+}
+
+/* Footer */
 
 footer {
     width: 100%;
