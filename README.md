@@ -36,10 +36,10 @@ Edit this document to include your answers after each question. Make sure to lea
 > It is the use of html tags that make sense to their position on the web page. (Ex: header in the top, footer on the bottom. Nav where a list of navigation goes.)
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-Block | Inline
-------|--------
-Take up the full width of its parent element | Only take up the width of its content
-Starts a new line | Doesn't start on a new line
+> | Block | Inline |
+> |:-:|:-:|
+> | Take up the full width of its parent element | Only take up the width of its content |
+> | Starts a new line | Doesn't start on a new line |
 
 3. What are the 4 areas of the box model?
 > 1. Margin 
