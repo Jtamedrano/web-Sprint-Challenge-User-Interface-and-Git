@@ -91,11 +91,13 @@ header .header-nav {
 .header-nav ul {
     flex: 3;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .header-nav ul a {
     color: inherit;
+    margin: none;
+    padding: none;
     text-decoration: none;
 }
 
@@ -202,6 +204,10 @@ header .header-nav {
     flex-basis: 40%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.middle-content-about .text-container h2 {
+    margin-top: 3%;
 }
 
 .middle-content-about .text-container a {
