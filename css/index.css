@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+header, .header-nav {
+    margin: 2% auto 5%;
+}
+
+header .header-nav {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header-nav ul {
+    flex: 3;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
